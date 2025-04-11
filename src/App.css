@@ -43,8 +43,8 @@ h1,h2,h3,h4{
   margin: 0px auto;
   margin-top: 90px;
   border-radius: 12px;
-  color: rgb(0, 188, 225);
-  background-color: #151515;
+  color: white;
+  background:rgb(78, 77, 77);
   padding: 20px;
   width: 90%;
   max-width: 700px;
@@ -59,7 +59,7 @@ h1,h2,h3,h4{
 }
 
 .grid-item {
-  background: #151515;
+  background: linear-gradient(135deg, #00132d, #002657); 
   color: white;
   padding: 20px;
   text-align: center;
@@ -194,12 +194,12 @@ h1,h2,h3,h4{
 .contact-section {
   padding: 3rem 1.5rem;
   text-align: center;
-  background: #0e0e0e;
+  background: linear-gradient(135deg, #00132d, #002657);
   width: 95%;
   margin: 0px auto;
   max-width: 600px;
   border-radius: 12px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
 }
 
 .contact-section h2 {
@@ -210,7 +210,7 @@ h1,h2,h3,h4{
 .contact-section p {
   margin-bottom: 2rem;
   font-size: 1rem;
-  color: #cccccc;
+  color: rgb(255, 255, 255);
 }
 
 .contact-form {
@@ -226,8 +226,8 @@ h1,h2,h3,h4{
   padding: 1rem;
   border-radius: 12px;
   border: none;
-  background: rgba(255, 255, 255, 0.08);
-  color: white;
+  background: rgba(255, 255, 255, 0.564);
+  color: rgb(0, 0, 0);
   font-size: 1rem;
   resize: none;
 }
@@ -262,7 +262,7 @@ h1,h2,h3,h4{
 }
 
 .skill-card {
-  background: rgba(255,255,255,0.05);
+  background: linear-gradient(135deg, #00132d, #002657);
   border-radius: 16px;
   text-align: center;
   padding: 1rem;
@@ -273,7 +273,7 @@ h1,h2,h3,h4{
 
 .skill-card:hover {
   transform: scale(1.1);
-  background: linear-gradient(135deg, #0094b6, #4d00a4);
+  background: linear-gradient(135deg, #00132d, #002657);
   color: white;
 }
 .hbhb{
