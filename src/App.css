@@ -7,11 +7,17 @@
 .hello {
   margin-top: 40px;
 }
+.my-photo{
+  margin: 0 auto;
+}
 .profile-div {
   margin-top: 40px;
 }
 .margin {
   margin-top: 20px;
+}
+h1,h2,h3,h4{
+  margin: 0 auto;
 }
 .about-head {
   margin-top: 30px;
@@ -269,6 +275,9 @@
   transform: scale(1.1);
   background: linear-gradient(135deg, #0094b6, #4d00a4);
   color: white;
+}
+.hbhb{
+  margin: 0 auto;
 }
 
 

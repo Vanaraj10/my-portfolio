@@ -7,6 +7,7 @@ import { FaGithub, FaLinkedin, FaReddit, FaEnvelope } from "react-icons/fa";
 const App = () => {
   return (
     <div>
+      <center>
       {/*-----Top bar-----*/}
       <div className="flex flex-col">
         <img
@@ -26,7 +27,7 @@ const App = () => {
         <img
           src={my_photo}
           alt="Profile"
-          className="w-full h-full object-cover rounded-full "
+          className="w-full h-full object-cover my-photo rounded-full "
         />
         <p className="text-amber-50 margin">CS Student | Ai Enthusiast</p>
       </div>
@@ -57,6 +58,7 @@ const App = () => {
           <FaEnvelope size={37} />
         </a>
       </div>
+      </center>
 
       {/* ----About----- */}
       <h2 className="text-amber-50 about-head">I like building things.</h2>
@@ -182,7 +184,7 @@ const App = () => {
         </div>
       </div>
 
-      <h2 className="text-amber-50 font-mono font-bold place-self-center text-3xl">My Skills</h2>
+      <center><h2 className="text-amber-50 font-mono font-bold place-self-center hbhb text-3xl">My Skills</h2></center>
 
       <div className="skills-grid">
         <div className="skill-card">
