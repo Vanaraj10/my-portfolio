@@ -7,7 +7,7 @@
 .hello {
   margin-top: 40px;
 }
-.my-photo{
+.my-photo {
   margin: 0 auto;
 }
 .profile-div {
@@ -16,7 +16,10 @@
 .margin {
   margin-top: 20px;
 }
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
   margin: 0 auto;
 }
 .about-head {
@@ -39,15 +42,14 @@ h1,h2,h3,h4{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .social {
- 
   margin: 0px auto;
-  margin-top: 90px;
+  margin-top: 20px;
   border-radius: 12px;
   color: white;
-  background:rgb(78, 77, 77);
+  background: #4e4d4d;
   padding: 20px;
   width: 90%;
-  max-width: 700px;
+  max-width: 500px;
 }
 .grid-container {
   display: grid;
@@ -59,7 +61,7 @@ h1,h2,h3,h4{
 }
 
 .grid-item {
-  background: linear-gradient(135deg, #00132d, #002657); 
+  background: linear-gradient(135deg, #00132d, #002657);
   color: white;
   padding: 20px;
   text-align: center;
@@ -80,7 +82,7 @@ h1,h2,h3,h4{
 .projects-container {
   width: 98%;
   max-width: 700px;
-  margin: 50px auto;
+  margin: 20px auto;
   padding: 10px;
   border-radius: 12px;
   margin-bottom: 20px;
@@ -91,7 +93,30 @@ h1,h2,h3,h4{
   align-items: center;
   flex-direction: column;
 }
-
+.nav-bar {
+  background: rgb(30, 30, 30);
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  position: fixed;
+  top: 0;
+  font-family:'Times New Roman', Times, serif;
+  left: 0;
+  color: rgb(46, 234, 255);
+  font-weight: 600;
+  width: 100%;
+  z-index: 1000;
+}
+.nav-link {
+  display: flex;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
 .project {
   flex: 0 0 90%;
   scroll-snap-align: start;
@@ -100,6 +125,7 @@ h1,h2,h3,h4{
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   max-width: 600px;
+  margin-bottom: 10px;
 }
 .project h2 {
   font-size: 25px;
@@ -132,37 +158,16 @@ h1,h2,h3,h4{
   border-radius: 20px;
   margin: 4px;
 }
-.project-carousal {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  gap: 1rem;
-  padding: 1rem;
-}
-/* For the project carousel container */
-.project-carousel {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 1rem;
-  padding: 1rem;
-  scrollbar-width: none; /* Firefox */
-  max-width: 700px;
-}
-.project-carousel::-webkit-scrollbar {
-  display: none; /* Chrome, Safari */
-}
-
 /* Individual project card */
 .project {
   flex: 0 0 85vw;
+  font-size: 15px;
   scroll-snap-align: start;
-  background: rgba(255, 255, 255, 0.1); /* glass effect */
+  background: rgba(80, 80, 80, 0.2); /* glass effect */
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(41, 41, 41, 0.2);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
   padding: 10px;
   color: #fff;
@@ -194,9 +199,10 @@ h1,h2,h3,h4{
 .contact-section {
   padding: 3rem 1.5rem;
   text-align: center;
-  background: linear-gradient(135deg, #00132d, #002657);
+  background: linear-gradient(135deg, #000a19, #000c1c);
   width: 95%;
   margin: 0px auto;
+  margin-top: 60px;
   max-width: 600px;
   border-radius: 12px;
   color: rgb(255, 255, 255);
@@ -209,7 +215,7 @@ h1,h2,h3,h4{
 
 .contact-section p {
   margin-bottom: 2rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: rgb(255, 255, 255);
 }
 
@@ -252,34 +258,42 @@ h1,h2,h3,h4{
 .contact-form button:hover {
   background: linear-gradient(135deg, #30646f, #4a009f);
 }
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  gap: 1.5rem;
-  margin: 0 auto;
-  padding: 2rem;
-  max-width: 800px;
+.skill-card i{
+  font-size: 45px;
 }
 
 .skill-card {
-  background: linear-gradient(135deg, #00132d, #002657);
+  background: linear-gradient(135deg, #000b1a, #000f23);
   border-radius: 16px;
   text-align: center;
   padding: 1rem;
-  color: white;
+  font-size: 10px;
+  max-width: 600px;
+  margin: 10px auto;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
   transition: 0.3s ease;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
-
-.skill-card:hover {
-  transform: scale(1.1);
-  background: linear-gradient(135deg, #00132d, #002657);
-  color: white;
+.skill-card span{
+  font-size: 13px;
+  color: #7171ff;
 }
-.hbhb{
+.hbhb {
   margin: 0 auto;
 }
-
-
-
-
+.intro-to-site{
+  width: 250px;
+}
+.intro-to-site{
+  color: #e4e4e4;
+  margin-top: 20px;
+}
+.visitors{
+  margin-top: 20px;
+  width: 100px;
+}
