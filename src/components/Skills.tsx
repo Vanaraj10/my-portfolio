@@ -1,4 +1,4 @@
-import React from "react";
+
 import "devicon/devicon.min.css";
 
 const Skills = () => {
