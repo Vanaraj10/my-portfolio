@@ -7,8 +7,8 @@ import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import About from "./components/About";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import { useState } from "react";
+import {Routes, Route, Link } from "react-router-dom";
+
 
 import { useLocation } from "react-router-dom";
 
