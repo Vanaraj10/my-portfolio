@@ -26,6 +26,21 @@ const Projects = () => {
             </div>
           </div>
           <div className="project">
+            <h2>Music Player 🎸</h2>
+            <p>
+              An simple music player app with dynamic Background
+            </p>
+            <div className="link flex flex-row justify-center gap-5">
+              <a href="https://github.com/Vanaraj10/Music-Player">Source Code</a>
+              <a href="https://vjs-music-player.netlify.app/">Site Link</a>
+            </div>
+            <div className="technologies">
+              <p>React Js</p>
+              <p>JavaScript</p>
+              <p>CSS</p>
+            </div>
+          </div>
+          <div className="project">
             <h2>Quiz App 📝</h2>
             <p>
               An interactive quiz Site
@@ -74,7 +89,6 @@ const Projects = () => {
               <p>CSS</p>
             </div>
           </div>
-        
       </div>
     </div>
   )

@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div>
       <nav className="nav-bar">
-        <p>V J</p>
+        <p>V J 😎</p>
         <div className="nav-link">
           <Link to="/">Home</Link>
           <Link to="/skills">Skills</Link>
