@@ -75,7 +75,7 @@ const App = () => {
               <FaGithub size={37} />
             </a>
             <a
-              href="www.linkedin.com/in/vanaraj-p-372405306"
+              href="https://www.linkedin.com/in/vanaraj-p-372405306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
             >
