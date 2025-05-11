@@ -10,6 +10,21 @@ const Projects = () => {
           Here are some of the cool things I’ve built recently combining
           creativity, code, and APIs to solve real problems 💡💻
         </p>
+<div className="project">
+            <h2>Kct Chatbot 🤖</h2>
+            <p>
+              An chatbot for answering college related queries.
+            </p>
+            <div className="link flex flex-row justify-center gap-5">
+              <a href="https://huggingface.co/spaces/vanaraj07/raq_chatbot/tree/main">Source Code</a>
+              <a href="https://vanaraj07-raq-chatbot.hf.space/">Site Link</a>
+            </div>
+            <div className="technologies flex flex-row justify-center">
+              <p>RAQ</p>
+              <p>Python</p>
+              <p>Llama Api</p>
+            </div>
+          </div>
           <div className="project">
             <h2>Weather App ☁️</h2>
             <p>
